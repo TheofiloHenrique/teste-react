@@ -1,21 +1,22 @@
-import logo from './logo.svg';
+import bolsonaru from './bolsonaru.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Mao Tse Noro</h1>
+        <img src={bolsonaru} className="App-bolsonaru" alt="bolsonaru" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Mude <code>src/App.js</code> e salve para bla bla bla...
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://pt.wikipedia.org/wiki/Muralha_da_China"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Da uma sacada na muralha da China
         </a>
       </header>
     </div>
